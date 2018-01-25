@@ -1,9 +1,32 @@
-# IDEA
+# Intellij
 .idea
-**/*.iml
 
-# Binary output directories
+## Directory for compiled source code
 bin
 out
+output
 target
 
+# Hidden files
+**/.DS_Store
+**/Thumbs.db
+
+# Locked or cached files
+**/*.~log*
+**/*.lock
+**/*.tmp
+**/*.dia~
+**/*.swp
+
+# Generarted tex-files from pandoc
+**/*.tex
+
+# binaries
+**/*.pdf
+!ddl_dml/Wiederholung_DML_und_DDL_-_Vertiefung.pdf
+!ddl/Wiederholung_DDL.pdf
+!dml/Wiederholung_DML.pdf
+**/*.odt
+
+# exclude old exam
+**/*[kK][lL][aA][uU][sS][uU][rR]*
