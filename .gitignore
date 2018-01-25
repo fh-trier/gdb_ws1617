@@ -1,21 +1,5 @@
 # Intellij
-## User-specific stuff:
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/dictionaries
-
-## Sensitive or high-churn files:
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.xml
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-
-## Gradle:
-.idea/**/gradle.xml
-.idea/**/libraries
+.idea
 
 ## Directory for compiled source code
 bin
@@ -32,7 +16,17 @@ target
 **/*.lock
 **/*.tmp
 **/*.dia~
+**/*.swp
 
 # Generarted tex-files from pandoc
 **/*.tex
 
+# binaries
+**/*.pdf
+!ddl_dml/Wiederholung_DML_und_DDL_-_Vertiefung.pdf
+!ddl/Wiederholung_DDL.pdf
+!dml/Wiederholung_DML.pdf
+**/*.odt
+
+# exclude old exam
+**/*[kK][lL][aA][uU][sS][uU][rR]*
